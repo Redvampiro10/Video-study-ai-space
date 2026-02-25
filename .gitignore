@@ -1,34 +1,30 @@
-# Gradle files
-.gradle/
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# C extension modules
+*.so
+
+# Distribution / packaging
+.Python
 build/
+dist/
+*.egg-info/
+.venv/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Virtual environments
+venv/
+ENV/
+.env
 
-# Log/OS Files
-*.log
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# Pytest cache
+.pytest_cache/
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Pyre type checker
+.pyre/
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# mypy
+.mypy_cache/
